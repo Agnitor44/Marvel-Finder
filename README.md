@@ -16,7 +16,7 @@ Marvel Finder is a web-based application that allows users to browse through a c
 ![Favorites](https://cdn.discordapp.com/attachments/1052654966889775215/1086686109678972968/image.png)]
 
 <strong>Details:</strong> Users can view details about each comic book by clicking on the comic book's cover image or title. The details page displays information such as the title, author, publisher, description, and release date.
-![Details](https://media.discordapp.net/attachments/1052654966889775215/1086686281188261958/image.png?width=868&height=675)]
+![Details](https://media.discordapp.net/attachments/1052654966889775215/1086686281188261958/image.png?width=868&height=675)
 
 <h3>Technical Details</h3>
 
