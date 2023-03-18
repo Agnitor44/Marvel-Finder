@@ -24,7 +24,6 @@ export const fetchComicsByQuery = async (
       setIsLoading(false);
     })
     .catch((e) => {
-      console.log(e);
       setError(e.message);
       setIsLoading(false);
     });

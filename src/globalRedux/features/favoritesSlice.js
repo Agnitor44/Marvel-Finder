@@ -11,7 +11,6 @@ export const favoritesSlice = createSlice({
   reducers: {
     add: (state, action) => {
       const array = current(state).data;
-      console.log(array);
       return {
         data: [...array, action.payload],
       };

@@ -27,7 +27,6 @@ export default function ComicDetailsContainer() {
   };
 
   const favoriteHandler = () => {
-    console.log(favorites.findIndex((item) => item.id === details.id));
     if (isFavorite) {
       dispatch(sub(details.id));
     } else {
