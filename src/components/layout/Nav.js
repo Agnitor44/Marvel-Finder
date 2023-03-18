@@ -67,9 +67,9 @@ export default function Nav() {
           justify={"center"}
           alignItems={"center"}
         >
-          <LinkBox height={"100%"}>
-            <LinkOverlay href="/">
-              <Image height={"100%"} src="/marvel.png" />
+          <LinkBox height={"100%"} display={['none', 'flex']}  >
+            <LinkOverlay href="/" >
+              <Image  width='100px' src="/marvel.png" />
             </LinkOverlay>
           </LinkBox>
 
@@ -79,7 +79,7 @@ export default function Nav() {
         <Flex>
           <Link href={favUrl} target="__blank__">
             <Button bg="white">
-              <Text mr={"5px"}>Favorites</Text>
+              <Text display={['none', null, null, 'flex']} mr={"5px"}>Favorites</Text>
               <IoIosHeart size={20} />
             </Button>
           </Link>
