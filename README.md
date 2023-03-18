@@ -1,7 +1,7 @@
 <h1>Marvel Finder</h1>
 Marvel Finder is a web-based application that allows users to browse through a collection of Marvel Comics. Users can search for their favorite comic books, add them to their favorites list, and view details about each comic book.
 
-![mfinder](https://cdn.discordapp.com/attachments/1052654966889775215/1086686209834766456/image.png)]
+![mfinder](https://cdn.discordapp.com/attachments/1052654966889775215/1086686209834766456/image.png)
 
 
 <h3>Features</h3>
