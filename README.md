@@ -1,38 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1>Marvel Finder</h1>
+Marvel Finder is a web-based application that allows users to browse through a collection of Marvel Comics. Users can search for their favorite comic books, add them to their favorites list, and view details about each comic book.
 
-## Getting Started
+![mfinder](https://media.discordapp.net/attachments/1052654966889775215/1086686209834766456/image.png?width=1286&height=674)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+<h3>Features</h3>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<strong>Browse:</strong> Users can browse through a collection of Marvel Comics by scrolling through the home page.
+<br/>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+![browse](https://cdn.discordapp.com/attachments/1052654966889775215/1086686042469441586/image.png)]
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<strong>Search:</strong> Users can search for their favorite comic books by entering keywords in the search bar located at the top of the web application.
+<br/>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+![search](https://cdn.discordapp.com/attachments/1052654966889775215/1086685962802843819/image.png)]
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<strong>Favorites:</strong> Users can add their favorite comic books to their favorites list by clicking on the heart icon located on each comic book's page. The favorites list can be accessed by selecting the "Favorites" option from the navigation menu.
+<br/>
 
-## Learn More
+![Favorites](https://cdn.discordapp.com/attachments/1052654966889775215/1086686109678972968/image.png)]
 
-To learn more about Next.js, take a look at the following resources:
+<strong>Details:</strong> Users can view details about each comic book by clicking on the comic book's cover image or title. The details page displays information such as the title, author, page count and price.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Details](https://media.discordapp.net/attachments/1052654966889775215/1086686281188261958/image.png?width=868&height=675)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<h3>Technical Details</h3>
 
-## Deploy on Vercel
+<strong>Frontend:</strong> The frontend of the Marvel Comics Web Application is built using Next.js.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<strong>Backend:</strong> The Marvel Comics API is used as the backend of the application. The API is provided by the Marvel Developer Portal, which allows developers to access data about the Marvel Comics universe, characters, and events.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<strong>Database:</strong> The application does not use a database. Instead, it fetches data from the Marvel Comics API in real-time.
+
+<strong>Hosting:</strong> The application is hosted on Netlify - https://astounding-crumble-02928d.netlify.app/
+
+<strong>Security:</strong> The application uses HTTPS encryption to ensure that all data transmitted between the user's browser and the server is secure. The API key used to access the Marvel Comics API is stored securely on the server and is not accessible to the user.
+
