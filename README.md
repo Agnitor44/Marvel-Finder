@@ -6,12 +6,12 @@ Marvel Finder is a web-based application that allows users to browse through a c
 
 <h3>Features</h3>
 
-<strong>Browse:</strong> Users can browse through a collection of Marvel Comics by scrolling through the home page or by selecting the "Browse" option from the navigation menu. The comic books are displayed with their cover images and titles.
+<strong>Browse:</strong> Users can browse through a collection of Marvel Comics by scrolling through the home page.
 <br/>
 
 ![browse](https://cdn.discordapp.com/attachments/1052654966889775215/1086686042469441586/image.png)]
 
-<strong>Search:</strong> Users can search for their favorite comic books by entering keywords in the search bar located at the top of the web application. The search function allows users to filter results by title, author, and publisher.
+<strong>Search:</strong> Users can search for their favorite comic books by entering keywords in the search bar located at the top of the web application.
 <br/>
 
 ![search](https://cdn.discordapp.com/attachments/1052654966889775215/1086685962802843819/image.png)]
@@ -21,8 +21,7 @@ Marvel Finder is a web-based application that allows users to browse through a c
 
 ![Favorites](https://cdn.discordapp.com/attachments/1052654966889775215/1086686109678972968/image.png)]
 
-<strong>Details:</strong> Users can view details about each comic book by clicking on the comic book's cover image or title. The details page displays information such as the title, author, publisher, description, and release date.
-<br/>
+<strong>Details:</strong> Users can view details about each comic book by clicking on the comic book's cover image or title. The details page displays information such as the title, author, page count and price.
 
 ![Details](https://media.discordapp.net/attachments/1052654966889775215/1086686281188261958/image.png?width=868&height=675)
 
