@@ -40,7 +40,6 @@ export default function ComicInfo({ details }) {
       {renderRow("series name:", series?.name)}
       {renderRow("price:", `$${prices[0]?.price}`)}
       {renderRow("page count:", pageCount)}
-      {renderRow("page count:", pageCount)}
       {renderRow("creators", getCreators())}
       <Divider />
     </Flex>
