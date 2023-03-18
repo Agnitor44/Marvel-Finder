@@ -2,7 +2,6 @@ import axios from "axios";
 const rootUrl = "https://gateway.marvel.com/";
 
 export const fetchComics = async (setState, setError, setIsLoading) => {
-  console.log(`${rootUrl}v1/public/comics?apikey=${process.env.NEXT_PUBLIC_KEY}`)
   setIsLoading(true);
   axios
     .get(`${rootUrl}v1/public/comics?apikey=${process.env.NEXT_PUBLIC_KEY}`, {})
