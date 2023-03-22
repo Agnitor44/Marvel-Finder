@@ -9,7 +9,7 @@ import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 export default function FavoritesContainer() {
-  const favorites = useSelector((state) => state.favorites.data);
+  const favorites = useSelector((state) => state.state.favorites.data);
 
   return (
     <>

@@ -5,7 +5,7 @@ import { Flex } from "@chakra-ui/react";
 import { useRouter } from "next/router";
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-add;
+
 export default function ComicDetailsContainer() {
   const [isLoading, setIsLoading] = useState(false);
   const [details, setDetails] = useState(null);
@@ -13,7 +13,8 @@ export default function ComicDetailsContainer() {
   const router = useRouter();
   const id = router.query.id;
   const dispatch = useDispatch();
-  const favorites = useSelector((state) => state.favorites.data);
+  const favorites = useSelector((state) => state.state.favorites.data);
+
   const isFavorite =
     favorites.findIndex((item) => item.id === details?.id) >= 0;
   useEffect(() => {
@@ -41,6 +42,7 @@ export default function ComicDetailsContainer() {
       isFavorite={isFavorite}
       isLoading={isLoading}
       error={error}
+
     />
   );
 }

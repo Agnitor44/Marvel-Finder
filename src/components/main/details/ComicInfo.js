@@ -1,8 +1,9 @@
 import { Divider, Flex, Text } from "@chakra-ui/react";
 import React from "react";
+import ComicReadStatus from "./ComicReadStatus";
 
 export default function ComicInfo({ details }) {
-  const { series, prices, pageCount, dates, creators } = details;
+  const { series, prices, pageCount, dates, creators, id } = details;
   const getFullDate = () => {
     if (!dates[0].date) return null;
 
@@ -42,6 +43,7 @@ export default function ComicInfo({ details }) {
       {renderRow("page count:", pageCount)}
       {renderRow("creators", getCreators())}
       <Divider />
+      <ComicReadStatus pageCount={pageCount} id={id} /> 
     </Flex>
   );
 }
