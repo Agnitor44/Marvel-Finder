@@ -25,7 +25,7 @@ Marvel Finder is a web-based application that allows users to browse through a c
 
 ![Details](https://media.discordapp.net/attachments/1052654966889775215/1086686281188261958/image.png?width=868&height=675)
 
-<strong>Read tracker:</strong> This feature allows users to track how many pages of a comic book they have read. Users can manually input the number of pages read.
+<strong>Read tracker:</strong> This feature allows users to track how many pages of a comic book they have read. Users can manually input the number of pages read. (You can use this feature only if page count is provided by api)
 
 ![ReadTracker](https://cdn.discordapp.com/attachments/1052654966889775215/1088113892896546976/image.png)
 
